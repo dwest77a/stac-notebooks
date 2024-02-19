@@ -1,0 +1,10 @@
+LOGGING:
+  LEVEL: INFO
+
+INPUT:
+  TYPE: API
+  ROOT: https://stac.url.com
+
+OUTPUT:
+  TYPE: STATIC
+  ROOT: /PATH/TO/ROOT
