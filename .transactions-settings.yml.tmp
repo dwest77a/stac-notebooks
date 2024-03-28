@@ -1,0 +1,4 @@
+API_ROOT_URL: http://localhost:8000
+CLIENT_ID: ID
+CLIENT_KEY: KEY
+TOKEN_URL: http://localhost:9000/token

@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "CMIP6.C4MIP.MOHC.UKESM1-0-LL.Amon.tas.v20190806",
+  "geometry": null,
+  "assets": {
+      "data0001": {
+          "href": "https://cmip6-zarr-o.s3-ext.jc.rl.ac.uk/CMIP6.CMIP.MOHC.UKESM1-0-LL/historical.r2i1p1f2.Amon.tas.gn.v20190502.zarr",
+          "roles": [
+              "data"
+          ]
+      },
+      "data0002": {
+          "href": "https://cmip6-zarr-o.s3-ext.jc.rl.ac.uk/CMIP6.CMIP.MOHC.UKESM1-0-LL/historical.r3i1p1f2.Amon.tas.gn.v20190502.zarr",
+          "roles": [
+              "data"
+          ]
+      },
+      "data0003": {
+          "href": "https://cmip6-zarr-o.s3-ext.jc.rl.ac.uk/CMIP6.CMIP.MOHC.UKESM1-0-LL/historical.r4i1p1f2.Amon.tas.gn.v20190502.zarr",
+          "roles": [
+              "data"
+          ]
+      },
+      "data0004": {
+          "href": "https://cmip6-zarr-o.s3-ext.jc.rl.ac.uk/CMIP6.CMIP.MOHC.UKESM1-0-LL/historical.r8i1p1f2.Amon.tas.gn.v20190502.zarr",
+          "roles": [
+              "data"
+          ]
+      }
+  },
+  "properties": {
+      "datetime": null,
+      "mip_era": "CMIP6",
+      "activity_id": "C4MIP",
+      "institution_id": "MOHC",
+      "source_id": "UKESM1-0-LL",
+      "experiment_id": "ssp585-bgc",
+      "member_id": "r4i1p1f2",
+      "table_id": "Amon",
+      "var_id": "tas",
+      "grid_label": "gn",
+      "version": "v20190806",
+      "instance_id": "CMIP6.C4MIP.MOHC.UKESM1-0-LL.Amon.tas.v20190806"
+  },
+  "member_of_recipes": {
+      "cmip6": "338fbab3bb532d3f071ab068ba71283c"
+  },
+  "collection": "cmip6"
+}
