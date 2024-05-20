@@ -1,4 +1,5 @@
 aiohttp==3.9.1
+cftime==1.6.3
 fsspec==2023.6.0
 matplotlib==3.5.3
 numpy==1.24.4
